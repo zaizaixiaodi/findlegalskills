@@ -8,11 +8,13 @@
 
 **方式一：让 AI 帮你装**
 
-把下面这句话发给你的 AI 助手（Claude Code、WorkBuddy 等支持 Skill 的客户端）：
+把下面这句话发给你的 AI 助手（支持 Skill 的客户端，如 ChatGPT、Claude Code、WorkBuddy）：
 
 ```
-请安装这个 Skill：https://github.com/zaizaixiaodi/findlegalskills ，把 skills/findlegalskills/SKILL.md 保存到当前项目的 .claude/skills/findlegalskills/SKILL.md
+请读取 https://betterlawyer.cn/api/site/radar/skill/package，说明权限并在我确认后安装为 findlegalskills，然后查询法律 AI 工具。
 ```
+
+AI 会先说明要装什么、装在哪里，你确认后再装。
 
 **方式二：命令行**
 
@@ -21,6 +23,8 @@ mkdir -p .claude/skills/findlegalskills && curl -fsSL https://raw.githubusercont
 ```
 
 装好后重新打开客户端。
+
+已验证的客户端：ChatGPT（2026-11-17）。最新列表见 [betterlawyer.cn/skill](https://betterlawyer.cn/skill)。
 
 ## 试试这样问
 

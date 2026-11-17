@@ -3,7 +3,7 @@ name: findlegalskills
 description: 查询法律AI雷达已收录的法律 AI 项目，按律师工作场景、业务领域和使用条件找工具、查看详情或比较项目。只读，不处理客户材料，不执行项目安装。
 ---
 
-# Find Legal Skills · 法律AI雷达
+# 法律AI雷达
 
 雷达站点地址（BASE）为 https://betterlawyer.cn。只请求 BASE 的下列匿名 GET 接口，不使用管理员或运营令牌。
 
@@ -25,6 +25,6 @@ description: 查询法律AI雷达已收录的法律 AI 项目，按律师工作�
 
 ## 安装与验证状态
 
-将本文件保存为当前项目的 `.claude/skills/findlegalskills/SKILL.md`（或所用 AI 客户端的技能目录），重新打开客户端即可使用。
+将本文件保存到当前项目的 .claude/skills/findlegalskills/SKILL.md，重新打开 AI 客户端。
 
-2026-11-17 已对 https://betterlawyer.cn 公开接口实测：按场景与关键词筛选、项目详情、作者查询和不存在项目的 404 均返回正确结果。其他客户端以各自实测记录为准。
+已验证的客户端见 https://betterlawyer.cn/skill。
